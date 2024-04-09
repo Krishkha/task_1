@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>php internship task 1</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <nav>
+          <div class="logo">
+            <img
+              id="header_logo"
+              src="https://www.infogain.com/wp-content/themes/infogainv2022/infogain-2021/assets//images/finished/infogain-small-white-logo.svg"
+              width="150px"
+              alt="Infogain logo"
+            />
+          </div>
+
+          <ul class="menubar">
+            <li class="menu">MOVE FORWARD <span></span></li>
+            <li class="menu">REVEL</li>
+            <li class="menu">SERVICES</li>
+            <li class="menu">INDUSTRIES</li>
+            <li class="menu">CAREERS</li>
+            <li class="menu">ABOUT</li>
+          </ul>
+        </nav>
+      <main>
+        <div class="section-1">
+          <div class="heading">
+            <h1>Embrace</h1>
+            <h1>perpetual beta</h1>
+          </div>
+          <p>
+            <strong>Acceleration is now constant.</strong> Infogain designs and
+            builds intelligent platforms that unlock meaningful experiences,
+            enabling authentic interactions between you and your customers.
+          </p>
+
+          <button class="btn">SEE WHAT WE DO</button>
+        </div>
+        <div class="section-2">
+          <div class="boxes">
+            <div class="top box" id="top">
+              <img src="/images/inovation.png" alt="" />
+              <button type="button" class="topbtn" onclick="topclickshow()"><h4>INNOVATION</h4></button>
+            </div>
+            <div class="right box">
+              <img src="/images/experience.png" alt="" />
+              <h4>EXPERIENCE</h4>
+            </div>
+            <div class="bottom box">
+              <img src="/images/cloud.png" alt="" />
+              <button type="button" class="bottombtn" onclick="bottomclickshow()"><h4>CLOUD</h4></button>
+            </div>
+            <div class="left box">
+              <img src="/images/ai.png" alt="" />
+              <h4>AI</h4>
+            </div>
+
+            <!-- *hide top box  -->
+            <div class="topbox" id="topbox">
+              <img src="/images/inovation.png" alt="" />
+              <button type="button" class="topbtn" onclick="topclickhide()"><h4>INNOVATION</h4></button>
+              <strong class="strtxt">See what could be.</strong>
+              <span class="topspan1">Leverage the future and build</span>
+              <span class="topspan2">products that create</span>
+              <span class="topspan3">their own demand</span>
+            </div>
+
+            <!-- *hide bottom box  -->
+            <div class="bottombox" id="bottombox">
+              <img src="/images/cloud.png" alt="">
+              <button type="button" class="bottombtn" onclick="bottomclickhide()"><h4>Cloud</h4></button>
+              <strong class="strtxt1">Forge the right cloud</strong>
+              <strong class="strtxt2">for your strategy.</strong>
+              <span class="bottomspan1">Unlock the power</span>
+              <span class="bottomspan2">of the cloud</span>
+              <span class="bottomspan3">for sustainable solutions.</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

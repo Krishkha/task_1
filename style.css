@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'freight-sans-pro', 'open-sans', sans-serif;
+
+}
+/* ---------------------------------------------------------
+NavBar
+--------------------------------------------------------- */
+.container{
+    width: 100%;
+    height: 953px;
+    display: flex;
+    background-color: aqua;
+    background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-05-09-d.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    /* margin: 0px 300px;  */
+    padding: 40px 15px;
+    height: 150px;
+}
+.logo img{
+    height: auto;
+    width: 150px;
+}
+.menubar{
+    display: flex;
+}
+
+.menubar .menu{
+    list-style: none;
+    margin: 0px 50px;
+    font-family: 'freight-sans-pro', 'open-sans', sans-serif;;
+    color: white;
+    font-size: 15px;
+}
+
+/* ---------------------------------------------------------
+Main
+--------------------------------------------------------- */
+
+main{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    /* border: 2px solid white; */
+    position: absolute;
+    left: 150px;
+
+}
+main .section-1{
+    width: 35%;
+    height: 550px;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    color: white;
+}
+
+.section-1 .heading{
+    margin: 20px 0;
+}
+
+.section-1 h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.3em;
+    font-weight: 400;
+}
+.section-1 p{
+    font-size: 1.3em;
+    font-family: "Kanit", sans-serif;
+    margin: 20px 0px;
+    line-height: 45px;
+    font-weight: 200;
+}
+
+.section-1 .btn{
+    height: 70px;
+    width: 230px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.section-1 .btn:hover{
+    background-color: rgba(255, 255, 255, 0.236);
+}
+
+
+main .section-2{
+    width: 40%;
+    height: 500px;
+    background-color: transparent;
+}
+
+.section-2 .boxes{
+    width: 600px;
+    height: 450px;
+    /* background-color: aquamarine; */
+    /* border: 2px solid white; */
+}
+
+.section-2 .boxes .box{
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #00aada;
+}
+/* ----------------TOP BOX------------------- */
+.section-2 .boxes .top{
+    position: relative;
+    left: 250px;
+}
+.section-2 .boxes .top .topbtn{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+.section-2 .boxes .top img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+/* ----------------Bottom BOX------------------- */
+.section-2 .boxes .bottom{
+    position: relative;
+    left: 250px;
+    bottom: 180px;
+}
+
+
+.section-2 .boxes .bottom .bottombtn{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 50px;
+    left: 5px;
+    background-color: transparent;
+    border: none;
+}
+.section-2 .boxes .bottom img{
+    display: inline;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 70px;
+    top: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------right BOX------------------- */
+.section-2 .boxes .right{
+    position: relative;
+    left: 360px;
+    bottom: 90px;
+}
+
+.section-2 .boxes .right h4{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.section-2 .boxes .right img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------Left BOX------------------- */
+.section-2 .boxes .left{
+    position: relative;
+    left: 140px;
+    bottom: 490px;
+}
+
+.section-2 .boxes .left h4{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.section-2 .boxes .left img{
+    display: inline;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 70px;
+    top: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* *----------------TopBOX------------------- */
+
+.topbox{
+    display: none;
+    width: 420px;
+    height: 420px;
+    background-color: #00aada;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: relative;
+    bottom: 800px;
+    left: 140px;
+}
+
+.topbox img{
+    display: inline;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+.topbox .topbtn{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+
+.topbox .strtxt{
+    display: inline;
+    position: relative;
+    right: 90px;
+    top: 90px;
+}
+
+.topbox .topspan1{
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+    top: 120px;
+}
+
+.topbox .topspan2{
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    right: 40px;
+    top: 140px;
+}
+
+.topbox .topspan3{
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    right: 150px;
+    top: 160px;
+}
+
+/* *----------------BOTTOM BOX------------------- */
+
+.bottombox{
+    display: none;
+    width: 420px;
+    height: 420px;
+    background-color: #00aada;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: relative;
+    bottom: 800px;
+    left: 140px;
+}
+.bottombox img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 160px;
+    top: 30px;
+}
+
+.bottombox .bottombtn{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+
+.bottombox .strtxt1{
+    display: inline;
+    position: relative;
+    right: 20px;
+    top: 90px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.bottombox .strtxt2{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 90px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.bottombox .bottomspan1{
+    display: inline;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    top: 140px;
+}
+.bottombox .bottomspan2{
+    display: inline;
+    font-size: 13px;
+    position: relative;
+    right: 60px;
+    top: 160px;
+}
+.bottombox .bottomspan3{
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+    left: 140px;
+    top: 160px;
+}
+
+/* ---------------------------------------------------------
+                    media query in 1845px
+--------------------------------------------------------- */
+@media only screen and (max-width: 1845px) {
+    .section-1 h1{
+        font-size: 4em;
+        font-weight: 300;
+    }
+    .section-1 p{
+        font-size: 1.2em;
+        line-height: 40px;
+        font-weight: 200;
+    }
+    
+    .section-1 .btn{
+        height: 70px;
+        width: 230px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+    .section-1 .btn:hover{
+        background-color: rgba(255, 255, 255, 0.236);
+    }
+    .menubar .menu{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .section-2 .boxes{
+        position: relative;
+        right: 120px;
+    }
+  }
+
+  
+/* ---------------------------------------------------------
+                    media query in 1450px
+--------------------------------------------------------- */
+  @media only screen and (max-width: 1450px) {
+    .section-1 h1{
+        font-size: 3em;
+        font-weight: 300;
+    }
+    .section-1 p{
+        font-size: 1em;
+        line-height: 40px;
+        font-weight: 200;
+    }
+    
+    .section-1 .btn{
+        height: 60px;
+        width: 200px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+    .section-1 .btn:hover{
+        background-color: rgba(255, 255, 255, 0.236);
+    }
+    .menubar .menu{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .section-2 .boxes{
+        position: relative;
+        right: 120px;
+    }
+  }
+
+
+/* ---------------------------------------------------------
+                    media query in 1300px
+--------------------------------------------------------- */
+
+  @media only screen and (max-width: 1300px) {
+    .container{
+        width: 1300px;
+    }
+    .menubar .menu{
+        display: inline-block;
+        font-size: 12px;
+    }
+  }
+
