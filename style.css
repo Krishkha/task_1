@@ -195,7 +195,7 @@ main .section-2{
     bottom: 90px;
 }
 
-.section-2 .boxes .right h4{
+.section-2 .boxes .right .rightbtn{
     display: inline;
     font-size: 12px;
     position: relative;
@@ -204,6 +204,8 @@ main .section-2{
     position: relative;
     top: 10px;
     left: 50px;
+    background-color: transparent;
+    border: none;
 }
 .section-2 .boxes .right img{
     display: inline;
@@ -388,7 +390,7 @@ main .section-2{
     top: 160px;
 }
 
-/* *----------------BOTTOM BOX------------------- */
+/* *----------------LEFT BOX------------------- */
 
 .leftbox{
     display: none;
@@ -457,6 +459,78 @@ main .section-2{
     position: relative;
     left: 155px;
     top: 140px;
+}
+
+/* *----------------RIGHT BOX------------------- */
+.rightbox{
+    display: none;
+    width: 420px;
+    height: 420px;
+    background-color: #00aada;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: relative;
+    bottom: 800px;
+    left: 140px;
+}
+
+.rightbox img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 160px;
+    top: 40px;
+}
+.rightbox .rightbtn{
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    top: 45px;
+    left: 70px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+
+.rightbox .strtxt1{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    top: 80px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.rightbox .strtxt2{
+    display: inline-block;
+    position: relative;
+    left: 170px;
+    top: 80px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.rightbox .rightspan1{
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.rightbox .rightspan2{
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+    left: 160px;
+    top: 100px;
+}
+.rightbox .rightspan3{
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+    left: 155px;
+    top: 100px;
 }
 /* ---------------------------------------------------------
                     media query in 1845px

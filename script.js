@@ -32,3 +32,14 @@ function leftclickshow(){
 function leftclickhide(){
     leftbox.style.display = "none";
 }
+
+// *click function for bottom box to show and hide
+let rightbox = document.getElementById('rightbox');
+
+function rightclickshow(){
+    rightbox.style.display = "block";
+}
+
+function rightclickhide(){
+    rightbox.style.display = "none";
+}
