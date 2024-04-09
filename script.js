@@ -21,3 +21,14 @@ function bottomclickshow(){
 function bottomclickhide(){
     bottombox.style.display = "none";
 }
+
+// *click function for bottom box to show and hide
+let leftbox = document.getElementById('leftbox');
+
+function leftclickshow(){
+    leftbox.style.display = "block";
+}
+
+function leftclickhide(){
+    leftbox.style.display = "none";
+}
