@@ -1,0 +1,88 @@
+
+
+/* ---------------------------------------------------------
+                    media query in 1845px
+--------------------------------------------------------- */
+@media only screen and (max-width: 1845px) {
+    .section-1 h1{
+        font-size: 4em;
+        font-weight: 300;
+    }
+    .section-1 p{
+        font-size: 1.2em;
+        line-height: 40px;
+        font-weight: 200;
+    }
+    
+    .section-1 .btn{
+        height: 70px;
+        width: 230px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+    .section-1 .btn:hover{
+        background-color: rgba(255, 255, 255, 0.236);
+    }
+    .menubar .menu{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .section-2 .boxes{
+        position: relative;
+        right: 120px;
+    }
+  }
+
+  
+/* ---------------------------------------------------------
+                    media query in 1450px
+--------------------------------------------------------- */
+  @media only screen and (max-width: 1450px) {
+    .section-1 h1{
+        font-size: 3em;
+        font-weight: 300;
+    }
+    .section-1 p{
+        font-size: 1em;
+        line-height: 40px;
+        font-weight: 200;
+    }
+    
+    .section-1 .btn{
+        height: 60px;
+        width: 200px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px;
+    }
+    .section-1 .btn:hover{
+        background-color: rgba(255, 255, 255, 0.236);
+    }
+    .menubar .menu{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .section-2 .boxes{
+        position: relative;
+        right: 120px;
+    }
+  }
+
+
+/* ---------------------------------------------------------
+                    media query in 1300px
+--------------------------------------------------------- */
+
+  @media only screen and (max-width: 1300px) {
+    .container{
+        width: 1300px;
+    }
+    .menubar .menu{
+        display: inline-block;
+        font-size: 12px;
+    }
+  }
+

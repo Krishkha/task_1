@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>php internship task 1</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="mediaquery.css">
   </head>
   <body>
     <div class="container">
@@ -63,28 +64,31 @@
             <!-- *hide top box  -->
             <div class="topbox" id="topbox">
               <img src="/images/inovation.png" alt="" />
-              <button type="button" class="topbtn" onclick="topclickhide()"><h4>INNOVATION</h4></button>
+              <button type="button" class="topbtn" ><h4>INNOVATION</h4></button>
               <strong class="strtxt">See what could be.</strong>
               <span class="topspan1">Leverage the future and build</span>
               <span class="topspan2">products that create</span>
               <span class="topspan3">their own demand</span>
+              <div class="cross" onclick="topclickhide()">&#10006;</div>
             </div>
 
             <!-- *hide bottom box  -->
             <div class="bottombox" id="bottombox">
               <img src="/images/cloud.png" alt="">
-              <button type="button" class="bottombtn" onclick="bottomclickhide()"><h4>Cloud</h4></button>
+              <button type="button" class="bottombtn"><h4>Cloud</h4></button>
               <strong class="strtxt1">Forge the right cloud</strong>
               <strong class="strtxt2">for your strategy.</strong>
               <span class="bottomspan1">Unlock the power</span>
               <span class="bottomspan2">of the cloud</span>
               <span class="bottomspan3">for sustainable solutions.</span>
+              <!-- <span class="cross" onclick="bottomclickhide()">&#10006;</span> -->
+              <div class="cross"  onclick="bottomclickhide()">&#10006;</div>
             </div>
 
             <!-- *hide left box  -->
             <div class="leftbox" id="leftbox">
               <img src="/images/ai.png" alt="">
-              <button type="button" class="leftbtn" onclick="leftclickhide()"><h4>AI</h4></button>
+              <button type="button" class="leftbtn"><h4>AI</h4></button>
 
               <strong class="strtxt">Solve the unsolvable</strong>
 
@@ -95,13 +99,14 @@
               <span class="leftspan3">Create products that</span>
               <br>
               <span class="leftspan4">sense and understand.</span>
+              <div class="cross"  onclick="leftclickhide()">&#10006;</div>
             </div>
 
             <!-- *hide left box  -->
             <div class="rightbox" id="rightbox">
               <img src="/images/experience.png" alt="">
 
-              <button type="button" class="rightbtn" onclick="rightclickhide()"><h4>EXPERIENCE</h4></button>
+              <button type="button" class="rightbtn" ><h4>EXPERIENCE</h4></button>
               <br>
               <strong class="strtxt1">Create the right experiences</strong>
               <br>
@@ -112,10 +117,44 @@
               <span class="rightspan2">with world-class</span>
               <br>
               <span class="rightspan3">digital experiences.</span>
+
+              <div class="cross" onclick="rightclickhide()">&#10006;</div>
             </div>
           </div>
         </div>
       </main>
+    </div>
+
+    <div class="container2">
+      <div class="section-3">
+        <div class="heading">
+          <h1>Engineering  Business Outcomes</h1>
+        </div>
+        <div class="pera">
+          <p>We enable meaningful, measurable impact—and deliver business outcomes that create the future you want.</p>
+        </div>
+        <div class="list">
+          <ul>
+            <li><a href="/">Innovate for Growth</a></li>
+            <li><a href="/">Design for Experience</a></li>
+            <li><a href="/">Engineer for Reliability</a></li>
+            <li><a href="/">Accelerate with AI</a></li>
+            <li><a href="/">Release with Speed</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="section-4">
+        
+        <div class="item1">
+          <img src="https://www.infogain.com/wp-content/uploads/2023/09/ebo-innovate-1x.webp" alt="">
+          <div class="info">
+            <h3>Innovate for Growth</h3>
+            <p><strong>Honor your past and move forward confidently.</strong> Our Fortune 50 travel customer grew annual revenues from $50 million to over $3 billion.</p>
+          </div>
+        </div>
+        <img src="https://www.infogain.com/wp-content/themes/infogainv2022/infogain-2021/assets/images/finished/rectangle-white.svg" alt="" class="rect1">
+        <img src="https://www.infogain.com/wp-content/themes/infogainv2022/infogain-2021/assets/images/finished/rectangle-white.svg" alt="" class="rect2">
+      </div>
     </div>
   </body>
   <script src="script.js"></script>
