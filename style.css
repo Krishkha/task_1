@@ -702,9 +702,9 @@ container 2
 .container2 .section-4{
     width: 900px;
     height: 800px;
+    display: flex;
     /* border: 2px solid black; */
 }
-
 .container2 .section-4 .item1 img{
     width: 590px;
     height: 590px;
@@ -713,6 +713,21 @@ container 2
     z-index: 0;
 }
 
+.container2 .section-4 .item1 #secton-4_img1{
+    display: block;
+}
+.container2 .section-4 .item1 #secton-4_img2{
+    display: none;
+}
+.container2 .section-4 .item1 #secton-4_img3{
+    display: none;
+}
+.container2 .section-4 .item1 #secton-4_img4{
+    display: none;
+}
+.container2 .section-4 .item1 #secton-4_img5{
+    display: none;
+}
 .container2 .section-4 .item1 .info{
     width: 400px;
     height: 280px;
@@ -733,6 +748,24 @@ container 2
     font-weight: 500;
     padding-bottom: 8px;
 }
+
+.container2 .section-4 .item1 .info #txt1{
+    display: block;
+}
+.container2 .section-4 .item1 .info #txt2{
+    display: none;
+}
+.container2 .section-4 .item1 .info #txt3{
+    display: none;
+}
+.container2 .section-4 .item1 .info #txt4{
+    display: none;
+}
+.container2 .section-4 .item1 .info #txt5{
+    display: none;
+}
+
+
 .container2 .section-4 .item1 .info p{
     font-size: 1em;
     line-height: 1.2;
@@ -749,7 +782,7 @@ container 2
     width: 300px;
     font-size: .9em;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     position: absolute;
     margin-top: 5px;
     background-color: white;
@@ -768,12 +801,13 @@ container 2
     width: 150px;
     height: 150px;
     position: relative;
-    left: 615px;
-    bottom: 850px;
+    left: 20px;
+    top: 100px;
 }
 .container2 .section-4 .rect2{
     width: 150px;
     height: 150px;
     position: relative;
-    bottom: 390px;
+    top: 550px;
+    right: 600px;
 }
