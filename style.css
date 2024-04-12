@@ -21,7 +21,6 @@ NavBar
     width: 100%;
     height: 953px;
     display: flex;
-    background-color: aqua;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-05-09-d.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -749,19 +748,19 @@ container 2
     padding-bottom: 8px;
 }
 
-.container2 .section-4 .item1 .info #txt1{
+.container2 .section-4 .item1 .info #txt1,#pera1{
     display: block;
 }
-.container2 .section-4 .item1 .info #txt2{
+.container2 .section-4 .item1 .info #txt2, #pera2{
     display: none;
 }
-.container2 .section-4 .item1 .info #txt3{
+.container2 .section-4 .item1 .info #txt3,#pera3{
     display: none;
 }
-.container2 .section-4 .item1 .info #txt4{
+.container2 .section-4 .item1 .info #txt4,#pera4{
     display: none;
 }
-.container2 .section-4 .item1 .info #txt5{
+.container2 .section-4 .item1 .info #txt5,#pera5{
     display: none;
 }
 
@@ -790,13 +789,6 @@ container 2
     border-radius: 5px;
 }
 
-
-
-
-
-
-
-
 .container2 .section-4 .rect1{
     width: 150px;
     height: 150px;
@@ -810,4 +802,63 @@ container 2
     position: relative;
     top: 550px;
     right: 600px;
+}
+
+
+/* ---------------------------------------------------------
+container 3
+--------------------------------------------------------- */
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/IGhome-GAi-blade-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container3 .box{
+    width: 65%;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+.container3 .box .heading{
+    width: 500px;
+}
+.container3 .box .heading h1{
+    width: 650px;
+    display: inline-block;
+    color: white;
+    /* border: 2px solid black; */
+    font-weight: 300;
+    font-size: 50px;
+}
+.container3 .box .pera{
+    width: 600px;
+    height: auro;
+    margin: 30px 0px;
+}
+.container3 .box .pera p{
+    word-spacing: 4px;
+    font-weight: 100;
+    line-height: 35px;
+    color: white;
+    font-size: 19px;
+
+}
+.container3 .box .btn{
+    width: 350px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.container3 .box .btn:hover{
+    background-color: rgba(216, 216, 216, 0.176);
 }
