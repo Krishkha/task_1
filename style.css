@@ -831,7 +831,6 @@ container 3
     width: 500px;
 }
 .container3 .box .heading h1{
-    width: 650px;
     display: inline-block;
     color: white;
     /* border: 2px solid black; */
@@ -861,4 +860,367 @@ container 3
 }
 .container3 .box .btn:hover{
     background-color: rgba(216, 216, 216, 0.176);
+}
+
+/* ---------------------------------------------------------
+container 4
+--------------------------------------------------------- */
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/IGHomeRevelBlade.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container4 .box{
+    width: 65%;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+.container4 .box .heading{
+    width: 500px;
+}
+.container4 .box .img{
+    margin: 20px 0px;
+}
+.container4 .box .img img{
+    height: 40px;
+    width: 180px;
+}
+
+.container4 .box .heading h1{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-family: "Freight-Big-Pro";   
+}
+.container4 .box .pera{
+    width: 600px;
+    height: auro;
+    margin: 30px 0px;
+}
+.container4 .box .pera p{
+    word-spacing: 4px;
+    font-weight: 100;
+    line-height: 35px;
+    color: white;
+    font-size: 19px;
+
+}
+.container4 .box .btn{
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.container4 .box .btn:hover{
+    background-color: rgba(216, 216, 216, 0.176);
+}
+
+
+/* ---------------------------------------------------------
+container 5
+--------------------------------------------------------- */
+
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container5 .box{
+    width: 600px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+.container5 .box .heading{
+    width: 400px;
+}
+
+
+.container5 .box .heading h1{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container5 .box .pera{
+    width: 500px;
+    height: auro;
+    margin: 30px 0px;
+}
+.container5 .box .pera p{
+    word-spacing: 4px;
+    font-weight: 100;
+    line-height: 35px;
+    color: white;
+    font-size: 19px;
+
+}
+.container5 .box .btn{
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.container5 .box .btn:hover{
+    background-color: rgba(216, 216, 216, 0.176);
+}
+
+.container5 .box2{
+    width: 600px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+
+/* ---------------------------------------------------------
+container 6
+--------------------------------------------------------- */
+
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: radial-gradient(circle at 114% 107%, #002942, #005962 95%, #004950 136%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container6 .box{
+    width: 540px;
+    height: 480px;
+    /* border: 2px solid black; */
+}
+
+.container6 .box .heading{
+    width: 400px;
+}
+
+
+.container6 .box .heading h1{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container6 .box .pera{
+    width: 450px;
+    height: auro;
+    margin: 30px 0px;
+}
+.container6 .box .pera p{
+    word-spacing: 4px;
+    font-weight: 100;
+    line-height: 35px;
+    color: white;
+    font-size: 19px;
+
+}
+.container6 .box2{
+    width: 840px;
+    height: 480px;
+    /* border: 2px solid black; */
+}
+
+.container6 .box2 iframe{
+    width: 837px;
+    height: 471px;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* ---------------------------------------------------------
+container 7
+--------------------------------------------------------- */
+
+.container7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background: url(https://www.infogain.com/wp-content/uploads/2022/05/home-4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container7 .box{
+    width: 300px;
+    height: 350px;
+    /* border: 2px solid black; */
+}
+
+.container7 .box .heading{
+    width: 200px;
+}
+
+
+.container7 .box .heading h1{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container7 .box .pera{
+    width: 270px;
+    height: auro;
+    margin: 30px 0px;
+}
+.container7 .box .pera p{
+    word-spacing: 4px;
+    font-weight: 100;
+    line-height: 35px;
+    color: white;
+    font-size: 19px;
+
+}
+.container7 .box .btn{
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.container7 .box .btn:hover{
+    background-color: rgba(216, 216, 216, 0.176);
+}
+
+.container7 .box2{
+    width: 1200px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+.container7 .box2 .sliderbox{
+    width: 1200px;
+    height: 500px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper { 
+    max-width: 1100px; 
+    width: 100%; 
+    position: relative; 
+  
+} 
+  
+.wrapper i { 
+    height: 50px; 
+    width: 50px; 
+    background: rgb(118, 233, 118); 
+    text-align: center; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 50%; 
+    font-size: 1.25 rem; 
+    transform: translateY(-50%); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23); 
+  
+} 
+  
+.wrapper i:first-child { 
+    left: -22px; 
+  
+} 
+  
+.wrapper i:last-child { 
+    right: -22px; 
+  
+} 
+  
+.wrapper .carousel { 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-columns: calc((100% / 3) - 12px); 
+    gap: 16px; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth; 
+    scrollbar-width: 0; 
+} 
+  
+.carousel::-webkit-scrollbar { 
+    display: none; 
+} 
+  
+.carousel :where(.card, .img) { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  
+.carousel.dragging { 
+    scroll-snap-type: none; 
+    scroll-behavior: auto; 
+} 
+  
+.carousel.no-transition { 
+    scroll-behavior: auto; 
+} 
+  
+.carousel.dragging .card { 
+    cursor: grab; 
+    user-select: none; 
+} 
+  
+.carousel .card { 
+    scroll-snap-align: start; 
+    height: 340px; 
+    list-style: none; 
+    background: #fff; 
+    border-radius: 8px; 
+    display: flex; 
+    cursor: pointer; 
+    width: 98%; 
+    padding-bottom: 15px; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+} 
+@media screen and (max-width: 900px) { 
+    .wrapper .carousel { 
+        grid-auto-columns: calc((100% / 2) - 9px); 
+  
+    } 
+} 
+  
+@media screen and (max-width: 600px) { 
+    .wrapper .carousel { 
+        grid-auto-columns: 100%; 
+  
+    } 
 }
