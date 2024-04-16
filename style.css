@@ -19,7 +19,7 @@ NavBar
 --------------------------------------------------------- */
 .container{
     width: 100%;
-    height: 953px;
+    height: 800px;
     display: flex;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-05-09-d.webp);
     background-position: center;
@@ -620,9 +620,8 @@ container 2
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     width: 100%;
-    height: 953px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2022/05/home-2.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -630,6 +629,8 @@ container 2
 }
 
 .container2 .section-3{
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     width: 900px;
     height: 800px;
@@ -638,7 +639,7 @@ container 2
 }
 
 .container2 .section-3 .heading{
-    margin-left: 300px;
+    margin-left: 100px;
     width: 650px;
     height: auto;
     font-size: 25px;
@@ -656,7 +657,7 @@ container 2
 
     width: 470px;
     font-size: 20px;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 10px;
     color: white;
 }
@@ -671,7 +672,7 @@ container 2
     width: 500px;
     height: 400px;
     /* border: 2px solid black; */
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 
@@ -699,8 +700,8 @@ container 2
     color: #bbbdbd;
 }
 .container2 .section-4{
-    width: 900px;
-    height: 800px;
+    width: 750px;
+    height: 600px;
     display: flex;
     /* border: 2px solid black; */
 }
@@ -814,7 +815,7 @@ container 3
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/IGhome-GAi-blade-1.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -871,7 +872,7 @@ container 4
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/IGHomeRevelBlade.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -936,7 +937,7 @@ container 5
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-3.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -1002,7 +1003,7 @@ container 6
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: radial-gradient(circle at 114% 107%, #002942, #005962 95%, #004950 136%);
     background-position: center;
     background-repeat: no-repeat;
@@ -1060,10 +1061,10 @@ container 7
 
 .container7{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background: url(https://www.infogain.com/wp-content/uploads/2022/05/home-4.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1114,23 +1115,21 @@ container 7
 }
 
 .container7 .box2{
-    width: 1200px;
+    width: 1000px;
     height: 500px;
     /* border: 2px solid black; */
 }
 .container7 .box2 .sliderbox{
-    width: 1200px;
+    width: 1000px;
     height: 500px;
     /* border: 2px solid black; */
-    position: relative;
-    left: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .wrapper { 
-    max-width: 1100px; 
+    max-width: 1000px; 
     width: 100%; 
     position: relative; 
   
