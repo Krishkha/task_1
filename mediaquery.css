@@ -86,3 +86,9 @@
     }
   }
 
+
+  @media only screen and (min-width: 1500px){
+    .container, .container2, .container3, .container4, .container5, .container6, .container7, .container8{
+        height: 1000px;
+    }
+  }
