@@ -19,7 +19,7 @@ NavBar
 --------------------------------------------------------- */
 .container{
     width: 100%;
-    height: 953px;
+    height: 800px;
     display: flex;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-05-09-d.webp);
     background-position: center;
@@ -65,7 +65,7 @@ main{
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 300px;
+    top: 250px;
     /* border: 2px solid white; */
     position: absolute;
     left: 150px;
@@ -610,8 +610,55 @@ main .section-2{
     cursor: pointer;
 
 }
+.container .dotts{
+    width: 20px;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
 
+.container .dotts .dot{
+    margin-bottom: 20px;
+    width: 5px;
+    height: 5px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.container .dotts .dot:hover{
+    width: 10px;
+    height: 10px;
+    transition: 0.1s;
+    background-color: whitesmoke;
+}
+.container .dotts .dot::after{
+    width: 10px;
+    height: 10px;
+    transition: 0.1s;
+    background-color: lightblue;
+}
 
+.container .connectbtn{
+    height: 50px;
+    width: 160px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f86a0b !important;
+    border-radius: 10px;
+}
+.container .connectbtn a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 0px;
+}
 /* ---------------------------------------------------------
 container 2
 --------------------------------------------------------- */
@@ -620,9 +667,8 @@ container 2
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     width: 100%;
-    height: 953px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2022/05/home-2.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -630,6 +676,8 @@ container 2
 }
 
 .container2 .section-3{
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     width: 900px;
     height: 800px;
@@ -638,7 +686,7 @@ container 2
 }
 
 .container2 .section-3 .heading{
-    margin-left: 300px;
+    margin-left: 100px;
     width: 650px;
     height: auto;
     font-size: 25px;
@@ -656,7 +704,7 @@ container 2
 
     width: 470px;
     font-size: 20px;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 10px;
     color: white;
 }
@@ -671,7 +719,7 @@ container 2
     width: 500px;
     height: 400px;
     /* border: 2px solid black; */
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 
@@ -699,14 +747,14 @@ container 2
     color: #bbbdbd;
 }
 .container2 .section-4{
-    width: 900px;
-    height: 800px;
+    width: 750px;
+    height: 600px;
     display: flex;
     /* border: 2px solid black; */
 }
 .container2 .section-4 .item1 img{
-    width: 590px;
-    height: 590px;
+    width: 550px;
+    height: 550px;
     position: relative;
     left: 100px;
     z-index: 0;
@@ -800,8 +848,8 @@ container 2
     width: 150px;
     height: 150px;
     position: relative;
-    top: 550px;
-    right: 600px;
+    top: 500px;
+    right: 500px;
 }
 
 
@@ -814,7 +862,7 @@ container 3
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/IGhome-GAi-blade-1.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -871,7 +919,7 @@ container 4
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/IGHomeRevelBlade.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -936,7 +984,7 @@ container 5
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-3.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -1002,7 +1050,7 @@ container 6
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-image: radial-gradient(circle at 114% 107%, #002942, #005962 95%, #004950 136%);
     background-position: center;
     background-repeat: no-repeat;
@@ -1060,10 +1108,10 @@ container 7
 
 .container7{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background: url(https://www.infogain.com/wp-content/uploads/2022/05/home-4.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1114,23 +1162,21 @@ container 7
 }
 
 .container7 .box2{
-    width: 1200px;
+    width: 1000px;
     height: 500px;
     /* border: 2px solid black; */
 }
 .container7 .box2 .sliderbox{
-    width: 1200px;
+    width: 1000px;
     height: 500px;
     /* border: 2px solid black; */
-    position: relative;
-    left: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .wrapper { 
-    max-width: 1100px; 
+    max-width: 1000px; 
     width: 100%; 
     position: relative; 
   
@@ -1223,4 +1269,264 @@ container 7
         grid-auto-columns: 100%; 
   
     } 
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------
+container 8
+--------------------------------------------------------- */
+
+.container8{
+    height: 800px;
+    width: 100%;
+    background-image: url(https://www.infogain.com/wp-content/uploads/2023/09/home-5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.container8 .infobox{
+
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container8 .infobox .info{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 1300px;
+    /* border: 2px solid black; */
+}
+.container8 .infobox .heading{
+    width: 500px;
+}
+.container8 .infobox .heading h1{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-family: 'freight-sans-pro', 'open-sans', sans-serif;  
+    font-weight: 200;
+}
+.container8 .infobox .pera{
+    display: flex;
+    width: 608px;
+    gap: 15px;
+    height: auro;
+    margin: 30px 0px;
+}
+.container8 .infobox .pera p{
+    word-spacing: 4px;
+    font-weight: 100;
+    line-height: 35px;
+    color: white;
+    font-size: 19px;
+    font-family: 'freight-sans-pro', 'open-sans', sans-serif;  
+    font-weight: 200;
+}
+
+.container8 .infobox .pera img{
+    width: 78px;
+    height: 133px;
+}
+.container8 .infobox .btn{
+    width: 300px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.container8 .infobox .btn:hover{
+    background-color: rgba(216, 216, 216, 0.176);
+}
+
+
+
+/* ---------------------------------------------------------
+container 9
+--------------------------------------------------------- */
+
+.container9{
+    width: 100%;
+    height: 450px;
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container9 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+    width: 1300px;
+    height: 170px;
+    /* border: 2px solid black; */
+}
+
+.container9 .box h1{
+    margin: 10px 0px;
+    font-family: freight-sans-pro, open-sans, sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.container9 .box p{
+    margin: 10px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+}
+
+.container9 .brands{
+    height: 140px;
+    width: 100%;
+}
+
+
+.footer1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.footer1 .footeritems{
+    height: 400px;
+    width: 1300px;
+    /* border: 2px solid wheat; */
+    padding: 30px;
+}
+
+.footer1 .footeritems .heading {
+    width: 100%;
+    height: 90px;
+}
+
+.footer1 .footeritems .heading h1{
+    color: white;
+    font-family: freight-sans-pro, open-sans, sans-serif;
+    font-size: 35px;
+}
+
+.footer1 .footeritems form{
+    color: white;
+    height: 150px;
+}
+.footer1 .footeritems form .form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer1 .footeritems form .formitem{
+    gap: 5px;
+}
+.footer1 .footeritems form .formitem label{
+    padding: 10px;
+}
+.footer1 .footeritems form .formitem input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+}
+.footer1 .footeritems form .checkbox{
+    margin: 15px 0px;
+}
+.footer1 .footeritems form .checkbox span{
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.footer1 .footeritems form .checkbox a{
+    text-decoration: none;
+    color: #00bbe2;
+}
+
+
+.footer1 .footeritems .btn input{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+}
+.footer1 .footeritems .btn input:hover{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: black ;
+}
+
+.footer2 .box1{
+    height: 100px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    /* border: 2px solid wheat; */
+}
+
+.footer2 .box1 .media img{
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.footer2 .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 150px;
+    width: 1300px;
+    /* border: 2px solid wheat; */
+}
+.footer2 .box2 p{
+    color: white;
+    margin: 10px 0px;
+}
+
+.footer2 .box2 ul{
+    display: flex;
+}
+
+.footer2 .box2 ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.footer2 .box2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
 }
