@@ -612,13 +612,13 @@ main .section-2{
 }
 
 .container .dottes{
+    display: none;
     width: 20px;
     height: 200px;
     /* border: 2px solid black; */
     position: fixed;
     bottom: 70px;
     right: 20px;
-    display: flex;
     flex-flow: column;
     align-items: center;
 }
