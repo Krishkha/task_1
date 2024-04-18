@@ -611,7 +611,51 @@ main .section-2{
 
 }
 
+.container .dottes{
+    width: 20px;
+    height: 200px;
+    /* border: 2px solid black; */
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.container .dottes .dot{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.container .dottes .dot:hover{
+    width: 10px;
+    height: 10px;
+    background-color: lightblue;
+}
 
+.container .connectbtn{
+    width: auto;
+    height: auto;
+}
+.container .connectbtn input{
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #f86a0b !important;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.container .connectbtn input:hover{
+    color: black;
+}
 /* ---------------------------------------------------------
 container 2
 --------------------------------------------------------- */
@@ -686,7 +730,6 @@ container 2
     justify-content: flex-start;
     align-items: center;
 }
-
 .container2 .section-3 .list ul li a{
     text-decoration: none;
     color: #00bbe2;
