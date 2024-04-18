@@ -84,23 +84,5 @@
         display: inline-block;
         font-size: 12px;
     }
-    
-  }
-
-
-/* ---------------------------------------------------------
-                    min media query in 1520px
---------------------------------------------------------- */
-
-  @media only screen and (min-width: 1520px) {
-
-    /* container1 */
-    .container, .container2, .container3, .container4, .container5, .container6, .container7, .container8{
-        height: 1000px;
-    }
-
-    .container .dotts{
-        display: flow;
-    }
   }
 

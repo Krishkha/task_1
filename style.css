@@ -610,55 +610,8 @@ main .section-2{
     cursor: pointer;
 
 }
-.container .dotts{
-    width: 20px;
-    height: 200px;
-    /* border: 2px solid black; */
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
-}
 
-.container .dotts .dot{
-    margin-bottom: 20px;
-    width: 5px;
-    height: 5px;
-    background-color: whitesmoke;
-    border-radius: 50%;
-}
-.container .dotts .dot:hover{
-    width: 10px;
-    height: 10px;
-    transition: 0.1s;
-    background-color: whitesmoke;
-}
-.container .dotts .dot::after{
-    width: 10px;
-    height: 10px;
-    transition: 0.1s;
-    background-color: lightblue;
-}
 
-.container .connectbtn{
-    height: 50px;
-    width: 160px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #f86a0b !important;
-    border-radius: 10px;
-}
-.container .connectbtn a{
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    border: 0px;
-}
 /* ---------------------------------------------------------
 container 2
 --------------------------------------------------------- */
@@ -1530,3 +1483,4 @@ container 9
     color: white;
     font-size: 13px;
 }
+
